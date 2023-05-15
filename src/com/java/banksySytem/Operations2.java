@@ -18,19 +18,19 @@ public class Operations2 {
         }
         int extraBillId1 = 0;
         Bill extraBill1 = null;// просто счет, факт существования счета у человека
-        for (int i = 0; i < extraPersone1.bills.length; i++) {
-            if ((extraPersone1.bills[i].getBillId() > extraBillId1) && (extraPersone1.bills[i].getAmmount() > ammount)) {
-                extraBillId1 = extraPersone1.bills[i].getBillId();
-                extraBill1 = extraPersone1.bills[i];
+        for (int i = 0; i < extraPersone1.bills.size(); i++) {
+            if ((extraPersone1.bills.get(i).getBillId() > extraBillId1) && (extraPersone1.bills.get(i).getAmmount() > ammount)) {
+                extraBillId1 = extraPersone1.bills.get(i).getBillId();
+                extraBill1 = extraPersone1.bills.get(i);
             }
         }
 
         int extraBillId2 = 0;
         Bill extraBill2 = null;
-        for (int i = 0; i < extraPersone2.bills.length; i++) {
-            if (extraPersone2.bills[i].getBillId() > extraBillId2) {
-                extraBillId2 = extraPersone2.bills[i].getBillId();
-                extraBill2 = extraPersone2.bills[i];
+        for (int i = 0; i < extraPersone2.bills.size(); i++) {
+            if (extraPersone2.bills.get(i).getBillId() > extraBillId2) {
+                extraBillId2 = extraPersone2.bills.get(i).getBillId();
+                extraBill2 = extraPersone2.bills.get(i);
             }
 
         }
