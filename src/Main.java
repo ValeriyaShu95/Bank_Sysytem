@@ -55,5 +55,7 @@ public class Main {
 
         Bill newBillPersone1 = new Bill(23, 234);
         persone1.newBill(newBillPersone1);
+
+        AllAmount.allMoney(persones);
     }
 }
