@@ -57,5 +57,6 @@ public class Main {
         persone1.newBill(newBillPersone1);
 
         AllAmount.allMoney(persones);
+        AllAmount.allMoneyByAllClients(persones);
     }
 }
