@@ -43,13 +43,13 @@ public class Main {
 //        System.out.println(persone1Bill.getAmmount());
 //        System.out.println(persone2Bill.getAmmount());
 
-//        Operations2.transaction2ByPersone(persone1, persone2, 40);
-        //Operations2.transaction2ByName("Lera", "Max", 100, persones);
-        // Operations2.transaction3ByArray("Lera", "Max", 1100, persones);
+//        Operations.transaction2ByPersone(persone1, persone2, 40);
+        //Operations.transaction2ByName("Lera", "Max", 100, persones);
+        // Operations.transaction3ByArray("Lera", "Max", 1100, persones);
 //        System.out.println(persone1Bill1.getAmmount());
 //        System.out.println(persone2Bill.getAmmount());
 
-        Operations3.transaction4(persone1, persone2, 2);
+        Operations.transaction4(persone1, persone2, 2);
         System.out.println(persone1Bill2.getAmmount());
         System.out.println(persone2Bill.getAmmount());
 
